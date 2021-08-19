@@ -5,15 +5,16 @@
 }
 
 @media all and (max-width: 600px) {
-    #top {width: 617px;}
-    #about {width: 617px;}
-    #services {width: 617px;}
-    #project {width: 617px;}
-    #contact {width: 617px;}
+    #top {width: 630px;}
+    #about {width: 630px; padding-top: 0px;}
+    #services {width: 630px;}
+    #project {width: 630px;}
+    #contact {width: 630px;}
     #map {width: 550px;}
-    #real_about {width: 617px;}
+    #real_about {width: 630px; margin-right: auto}
     #contact1 {width: 632px;}
     form {margin-right: 25px;}
+    #psample {display: inline-block;}
 }
 
 html {
@@ -43,8 +44,8 @@ html {
 }
 
 .col-sm-4 h4 {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 70px;
+    line-height: 70px;
     margin: 0;
 }
 .btn2 {
