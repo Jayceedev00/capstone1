@@ -13,6 +13,7 @@
     #map {width: 550px;}
     #real_about {width: 617px;}
     #contact1 {width: 632px;}
+    form {margin-right: 25px;}
 }
 
 html {
@@ -42,8 +43,8 @@ html {
 }
 
 .col-sm-4 h4 {
-    font-size: 70px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 35px;
     margin: 0;
 }
 .btn2 {
@@ -64,6 +65,8 @@ html {
 /*End*/
 .header {
     background: url(./images/try.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .header .row {
     margin-top: 25px;
