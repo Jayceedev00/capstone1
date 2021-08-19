@@ -4,32 +4,17 @@
 	box-sizing: border-box;
 }
 
-/*trial*/
-/*.navbar {
-    display: flex;
-    align-items: center;
-    padding: 20px;
+@media all and (max-width: 600px) {
+    #top {width: 617px;}
+    #about {width: 617px;}
+    #services {width: 617px;}
+    #project {width: 617px;}
+    #contact {width: 617px;}
+    #map {width: 550px;}
+    #real_about {width: 617px;}
+    #contact1 {width: 632px;}
 }
 
-.navbar-brand {
-	text-align: left;
-}
-
-nav {
-    flex: 1;
-    text-align: right;
-}
-nav ul {
-    display: inline-block;
-    list-style-type: none;
-}
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #fff;*/
 html {
     scroll-behavior: smooth;
 }
@@ -170,15 +155,6 @@ html {
     text-align: center;
     color: #555!important
     padding: 20px;
-}
-
-#project:after {
-    content: '';
-    background: #555;
-    display: block;
-    height: 3px;
-    width: 170px;
-    margin: 20px auto 5px;
 }
 
 #cme {
