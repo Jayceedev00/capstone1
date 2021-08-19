@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Navigation bar*/
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar-brand img {
+	height: 40px;
+	padding-left: 30px;
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+}
+
+.navbar-nav li a {
+	float: right;
+	text-align: left;
+}
+
+#nav-bar ul li a:hover {
+	color: #007bff!important;
+}
+
+.navbar {
+	background: #fff;
+}
+
+.navbar-toggler {
+	border: none!important;
+}
+
+.nav-link {
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/*Slider*/
+#slider {
+	width: 100%;
+}
+
+.carousel-caption { /*if you cant look for much better color, try to move the font into diffferent angle*/
+	top: 10%;
+	transform: translateY(-50%); 
+	bottom: initial!important;
+}
+
+.carousel-caption h5 {
+	color: #761414; /*look for much better color*/
+	font-size: 50px;
+}
+
+/*about*/
+
+#about {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+
+#about .btn {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.about-content {
+	padding-top: 20px;
+}
+
+.skills-bar p {
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+
+.progress-bar {
+	border-radius: 16px;
+}
+
+.progress {
+	border-radius: 16px !important;
+	margin-bottom: 20px;
+}
+
+/*Services*/
+#services {
+	background-image: url(./img/dark.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#services h1 {
+	text-align: center;
+	color: #efef!important
+	padding-bottom: 10px;
+}
+
+#services h1:after {
+	content: '';
+	background: #efef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
